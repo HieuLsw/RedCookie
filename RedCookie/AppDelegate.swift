@@ -24,8 +24,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         AppDelegate.popover.contentViewController = TranslateViewController.freshController()
         
         // added hot key to open up.
-        guard let keyCombo2 = KeyCombo(keyCode: 43, cocoaModifiers: [.command]) else { return }
-        let hotKey2 = HotKey(identifier: "Command<",
+        guard let keyCombo2 = KeyCombo(keyCode: 47, cocoaModifiers: [.command]) else { return }
+        let hotKey2 = HotKey(identifier: "Command.",
                              keyCombo: keyCombo2,
                              target: self,
                              action: #selector(AppDelegate.hotOpen))
