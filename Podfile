@@ -1,6 +1,6 @@
 platform :osx, '10.9'
 use_frameworks!
 
-target 'QuickTranslator' do
+target 'RedCookie' do
     pod 'Magnet'
 end

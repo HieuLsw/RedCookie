@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C954A757C40EEF439F4D200 /* Pods_QuickTranslator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396AFD2050B3BB1D5ABFF3FD /* Pods_QuickTranslator.framework */; };
+		AC14093095468C95013F07BF /* Pods_RedCookie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E602FE587CEAAF97343027 /* Pods_RedCookie.framework */; };
 		B10174841FD96F6F00BA0CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10174831FD96F6F00BA0CE7 /* AppDelegate.swift */; };
 		B10174861FD96F6F00BA0CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10174851FD96F6F00BA0CE7 /* ViewController.swift */; };
 		B10174881FD96F6F00BA0CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10174871FD96F6F00BA0CE7 /* Assets.xcassets */; };
@@ -18,19 +18,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		396AFD2050B3BB1D5ABFF3FD /* Pods_QuickTranslator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTranslator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D305D73BA180311DB0578A4 /* Pods-QuickTranslator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTranslator.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTranslator/Pods-QuickTranslator.release.xcconfig"; sourceTree = "<group>"; };
-		B10174801FD96F6F00BA0CE7 /* QuickTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E602FE587CEAAF97343027 /* Pods_RedCookie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCookie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10174801FD96F6F00BA0CE7 /* RedCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10174831FD96F6F00BA0CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B10174851FD96F6F00BA0CE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B10174871FD96F6F00BA0CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B101748A1FD96F6F00BA0CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B101748C1FD96F6F00BA0CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B101748D1FD96F6F00BA0CE7 /* QuickTranslator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickTranslator.entitlements; sourceTree = "<group>"; };
+		B101748D1FD96F6F00BA0CE7 /* RedCookie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedCookie.entitlements; sourceTree = "<group>"; };
 		B10174931FD98BCC00BA0CE7 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		B19E17D41FDBA5E3000F9FC2 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		B19E17D61FDBA8C8000F9FC2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CCDA1B8738BFE0854FEACCBF /* Pods-RedCookie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCookie.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCookie/Pods-RedCookie.release.xcconfig"; sourceTree = "<group>"; };
 		E8C9FB44227875CD9065E60B /* Pods-QuickTranslator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTranslator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTranslator/Pods-QuickTranslator.debug.xcconfig"; sourceTree = "<group>"; };
+		F509351D3BB1928921A95232 /* Pods-RedCookie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCookie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCookie/Pods-RedCookie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C954A757C40EEF439F4D200 /* Pods_QuickTranslator.framework in Frameworks */,
+				AC14093095468C95013F07BF /* Pods_RedCookie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +50,7 @@
 		19AF02E37842428814AD4F90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				396AFD2050B3BB1D5ABFF3FD /* Pods_QuickTranslator.framework */,
+				A3E602FE587CEAAF97343027 /* Pods_RedCookie.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,7 +58,7 @@
 		B10174771FD96F6F00BA0CE7 = {
 			isa = PBXGroup;
 			children = (
-				B10174821FD96F6F00BA0CE7 /* QuickTranslator */,
+				B10174821FD96F6F00BA0CE7 /* RedCookie */,
 				B10174811FD96F6F00BA0CE7 /* Products */,
 				D171FA5270428AC4E939F2CC /* Pods */,
 				19AF02E37842428814AD4F90 /* Frameworks */,
@@ -66,12 +68,12 @@
 		B10174811FD96F6F00BA0CE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B10174801FD96F6F00BA0CE7 /* QuickTranslator.app */,
+				B10174801FD96F6F00BA0CE7 /* RedCookie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B10174821FD96F6F00BA0CE7 /* QuickTranslator */ = {
+		B10174821FD96F6F00BA0CE7 /* RedCookie */ = {
 			isa = PBXGroup;
 			children = (
 				B19E17D31FDBA5D0000F9FC2 /* ui */,
@@ -82,9 +84,9 @@
 				B10174871FD96F6F00BA0CE7 /* Assets.xcassets */,
 				B10174891FD96F6F00BA0CE7 /* Main.storyboard */,
 				B101748C1FD96F6F00BA0CE7 /* Info.plist */,
-				B101748D1FD96F6F00BA0CE7 /* QuickTranslator.entitlements */,
+				B101748D1FD96F6F00BA0CE7 /* RedCookie.entitlements */,
 			);
-			path = QuickTranslator;
+			path = RedCookie;
 			sourceTree = "<group>";
 		};
 		B19E17D31FDBA5D0000F9FC2 /* ui */ = {
@@ -100,6 +102,8 @@
 			children = (
 				E8C9FB44227875CD9065E60B /* Pods-QuickTranslator.debug.xcconfig */,
 				8D305D73BA180311DB0578A4 /* Pods-QuickTranslator.release.xcconfig */,
+				F509351D3BB1928921A95232 /* Pods-RedCookie.debug.xcconfig */,
+				CCDA1B8738BFE0854FEACCBF /* Pods-RedCookie.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -107,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B101747F1FD96F6F00BA0CE7 /* QuickTranslator */ = {
+		B101747F1FD96F6F00BA0CE7 /* RedCookie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B10174901FD96F6F00BA0CE7 /* Build configuration list for PBXNativeTarget "QuickTranslator" */;
+			buildConfigurationList = B10174901FD96F6F00BA0CE7 /* Build configuration list for PBXNativeTarget "RedCookie" */;
 			buildPhases = (
 				7651610735151B1E6A31A517 /* [CP] Check Pods Manifest.lock */,
 				B101747C1FD96F6F00BA0CE7 /* Sources */,
@@ -122,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = QuickTranslator;
+			name = RedCookie;
 			productName = QuickTranslator;
-			productReference = B10174801FD96F6F00BA0CE7 /* QuickTranslator.app */;
+			productReference = B10174801FD96F6F00BA0CE7 /* RedCookie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B101747B1FD96F6F00BA0CE7 /* Build configuration list for PBXProject "QuickTranslator" */;
+			buildConfigurationList = B101747B1FD96F6F00BA0CE7 /* Build configuration list for PBXProject "RedCookie" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B101747F1FD96F6F00BA0CE7 /* QuickTranslator */,
+				B101747F1FD96F6F00BA0CE7 /* RedCookie */,
 			);
 		};
 /* End PBXProject section */
@@ -185,7 +189,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QuickTranslator/Pods-QuickTranslator-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RedCookie/Pods-RedCookie-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Magnet/Magnet.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -194,7 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTranslator/Pods-QuickTranslator-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCookie/Pods-RedCookie-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		55F384DED9676080126080B4 /* [CP] Copy Pods Resources */ = {
@@ -209,7 +213,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTranslator/Pods-QuickTranslator-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCookie/Pods-RedCookie-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7651610735151B1E6A31A517 /* [CP] Check Pods Manifest.lock */ = {
@@ -223,7 +227,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QuickTranslator-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RedCookie-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,18 +371,18 @@
 		};
 		B10174911FD96F6F00BA0CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8C9FB44227875CD9065E60B /* Pods-QuickTranslator.debug.xcconfig */;
+			baseConfigurationReference = F509351D3BB1928921A95232 /* Pods-RedCookie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = QuickTranslator/QuickTranslator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RedCookie/RedCookie.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HV4VTT4EX9;
-				INFOPLIST_FILE = QuickTranslator/Info.plist;
+				INFOPLIST_FILE = RedCookie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhlee.QuickTranslator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhlee.RedCookie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -387,18 +391,18 @@
 		};
 		B10174921FD96F6F00BA0CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D305D73BA180311DB0578A4 /* Pods-QuickTranslator.release.xcconfig */;
+			baseConfigurationReference = CCDA1B8738BFE0854FEACCBF /* Pods-RedCookie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = QuickTranslator/QuickTranslator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RedCookie/RedCookie.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HV4VTT4EX9;
-				INFOPLIST_FILE = QuickTranslator/Info.plist;
+				INFOPLIST_FILE = RedCookie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhlee.QuickTranslator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhlee.RedCookie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -408,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B101747B1FD96F6F00BA0CE7 /* Build configuration list for PBXProject "QuickTranslator" */ = {
+		B101747B1FD96F6F00BA0CE7 /* Build configuration list for PBXProject "RedCookie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B101748E1FD96F6F00BA0CE7 /* Debug */,
@@ -417,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B10174901FD96F6F00BA0CE7 /* Build configuration list for PBXNativeTarget "QuickTranslator" */ = {
+		B10174901FD96F6F00BA0CE7 /* Build configuration list for PBXNativeTarget "RedCookie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B10174911FD96F6F00BA0CE7 /* Debug */,
