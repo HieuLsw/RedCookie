@@ -1,7 +1,7 @@
 ![Logo](./docs/images/logo.png)
 
-## What is QuickTranslator
-QuickTranslator is mac os application which provides fastest and easiest translation.
+## What is RedCookie
+RedCookie is mac os application which provides fastest and easiest translation.
 
 ## When can I download this application on my mac?
 To distribute the mac os project as package. I need an apple developer membership.<br>
@@ -10,7 +10,7 @@ I'll do my best to make you are able to download it as soon as possible
 
 ## How to use
 Once you install and run this app. Then type `Command + ,` on keyboard.<br>
-QuickTranslator will be shown as below<br><br>
+RedCookie will be shown as below<br><br>
 ![Quick Translator Screenshot](./docs/images/screenshot2.png)
 
 ## How to contribute it
@@ -19,12 +19,12 @@ If you have any idea on this app. Feel free to try contribute yourself.<br><br>
 
 The following is first step to contribute this project.
 
-> $ git clone https://github.com/scalalang2/QuickTranslator.git<br>
-> $ cd QuickTranslator<br>
+> $ git clone https://github.com/scalalang2/RedCookie.git<br>
+> $ cd RedCookie<br>
 > $ pod install
 
 If you finished all these steps above.<br>
-Open the `QuickTranslator.xcworkspace` file with Xcode.<br>
+Open the `RedCookie.xcworkspace` file with Xcode.<br>
 Now you can build and run it.
 
 ## Help me.
