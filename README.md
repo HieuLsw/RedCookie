@@ -18,7 +18,7 @@ If you have any idea on this app. Feel free to try contribute yourself.<br><br>
 The following is first step to contribute this project.
 
 > $ git clone https://github.com/scalalang2/QuickTranslator.git<br>
-> $ cd QuickTranslator
+> $ cd QuickTranslator<br>
 > $ pod install
 
 If you finished all these steps above.<br>
