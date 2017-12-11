@@ -1,3 +1,5 @@
+![Logo](./docs/images/logo.png)
+
 ## What is QuickTranslator
 QuickTranslator is mac os application which provides fastest and easiest translation.
 
