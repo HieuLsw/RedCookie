@@ -8,8 +8,8 @@ I'll do my best to make you are able to download it as soon as possible
 
 ## How to use
 Once you install and run this app. If type `Command + ,` on keyboard.<br>
-QuickTranslator will be shown as below<br>
-![Quick Translator Screenshot](./docs/images/screenshot.png)
+QuickTranslator will be shown as below<br><br>
+![Quick Translator Screenshot](./docs/images/screenshot2.png)
 
 ## How to contribute it
 I always welcome your contribution!<br>
