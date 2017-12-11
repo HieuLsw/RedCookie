@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13529"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="13529"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="13771"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
         <scene sceneID="JPo-4y-FX3">
             <objects>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="QuickTranslator" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="RedCookie" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
@@ -46,7 +47,7 @@
         <!--Translate View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController storyboardIdentifier="TranslateViewController" id="XfG-lQ-9wD" customClass="TranslateViewController" customModule="QuickTranslator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TranslateViewController" id="XfG-lQ-9wD" customClass="TranslateViewController" customModule="RedCookie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -68,7 +69,7 @@
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5lI-7q-4Ny">
                                 <rect key="frame" x="90" y="467" width="86" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Command + ," id="ds0-zp-UEt">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Command + ." id="ds0-zp-UEt">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" red="0.54810961787564771" green="0.54810961787564771" blue="0.54810961787564771" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="backgroundColor" red="0.48942552298461839" green="0.48942552298461839" blue="0.48942552298461839" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
