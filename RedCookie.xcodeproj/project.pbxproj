@@ -15,6 +15,7 @@
 		B10174951FD98BCC00BA0CE7 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10174931FD98BCC00BA0CE7 /* TranslateViewController.swift */; };
 		B19E17D51FDBA5E3000F9FC2 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19E17D41FDBA5E3000F9FC2 /* MenuButton.swift */; };
 		B19E17D71FDBA8C8000F9FC2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19E17D61FDBA8C8000F9FC2 /* SettingViewController.swift */; };
+		B1D4E5ED1FE01154008748DA /* PapagoWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D4E5EC1FE01154008748DA /* PapagoWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B10174931FD98BCC00BA0CE7 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		B19E17D41FDBA5E3000F9FC2 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		B19E17D61FDBA8C8000F9FC2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B1D4E5EC1FE01154008748DA /* PapagoWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoWebView.swift; sourceTree = "<group>"; };
 		CCDA1B8738BFE0854FEACCBF /* Pods-RedCookie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCookie.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCookie/Pods-RedCookie.release.xcconfig"; sourceTree = "<group>"; };
 		E8C9FB44227875CD9065E60B /* Pods-QuickTranslator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTranslator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTranslator/Pods-QuickTranslator.debug.xcconfig"; sourceTree = "<group>"; };
 		F509351D3BB1928921A95232 /* Pods-RedCookie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCookie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCookie/Pods-RedCookie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B19E17D41FDBA5E3000F9FC2 /* MenuButton.swift */,
+				B1D4E5EC1FE01154008748DA /* PapagoWebView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				B10174861FD96F6F00BA0CE7 /* ViewController.swift in Sources */,
 				B10174841FD96F6F00BA0CE7 /* AppDelegate.swift in Sources */,
 				B10174951FD98BCC00BA0CE7 /* TranslateViewController.swift in Sources */,
+				B1D4E5ED1FE01154008748DA /* PapagoWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

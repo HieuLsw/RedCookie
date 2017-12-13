@@ -52,7 +52,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hq1-EA-dPM">
+                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hq1-EA-dPM" customClass="PapagoWebView" customModule="RedCookie" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="400" height="448"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
