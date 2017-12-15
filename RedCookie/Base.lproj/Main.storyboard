@@ -3,7 +3,7 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="13771"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="13771"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -52,13 +52,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hq1-EA-dPM" customClass="PapagoWebView" customModule="RedCookie" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="400" height="448"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ypL-yj-y1z">
                                 <rect key="frame" x="14" y="467" width="70" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="RedCookie" id="A6i-Ti-gSi">
@@ -89,23 +82,29 @@
                                     <action selector="closeAppWithSender:" target="XfG-lQ-9wD" id="dUK-qb-kEt"/>
                                 </connections>
                             </button>
+                            <webView translatesAutoresizingMaskIntoConstraints="NO" id="7vh-D4-b5p" customClass="PapagoWebView" customModule="RedCookie" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="449"/>
+                                <webPreferences key="preferences" defaultFontSize="16" defaultFixedFontSize="13" minimumFontSize="0">
+                                    <nil key="identifier"/>
+                                </webPreferences>
+                            </webView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="hq1-EA-dPM" firstAttribute="top" secondItem="ypL-yj-y1z" secondAttribute="bottom" constant="19" id="75V-ve-j6S"/>
+                            <constraint firstItem="7vh-D4-b5p" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="2Bz-dD-u0z"/>
                             <constraint firstItem="ypL-yj-y1z" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="16" id="8FR-zG-4iP"/>
-                            <constraint firstAttribute="trailing" secondItem="hq1-EA-dPM" secondAttribute="trailing" id="EOx-Wl-daY"/>
                             <constraint firstItem="gNW-2q-KOd" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="16" id="OCc-3n-Qht"/>
                             <constraint firstItem="5lI-7q-4Ny" firstAttribute="leading" secondItem="ypL-yj-y1z" secondAttribute="trailing" constant="10" id="OLh-rt-Utd"/>
-                            <constraint firstAttribute="bottom" secondItem="hq1-EA-dPM" secondAttribute="bottom" id="Vbs-zi-aQG"/>
                             <constraint firstItem="5lI-7q-4Ny" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="16" id="YqS-HR-qmd"/>
-                            <constraint firstItem="hq1-EA-dPM" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="d5l-xy-Ge9"/>
+                            <constraint firstItem="7vh-D4-b5p" firstAttribute="top" secondItem="ypL-yj-y1z" secondAttribute="bottom" constant="18" id="a4f-wM-ymg"/>
+                            <constraint firstAttribute="bottom" secondItem="7vh-D4-b5p" secondAttribute="bottom" id="h2r-to-MKt"/>
+                            <constraint firstAttribute="trailing" secondItem="7vh-D4-b5p" secondAttribute="trailing" id="hg3-9y-mdg"/>
                             <constraint firstItem="ypL-yj-y1z" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="16" id="sDA-QW-Eg3"/>
                             <constraint firstAttribute="trailing" secondItem="gNW-2q-KOd" secondAttribute="trailing" constant="24" id="vHu-04-RNX"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="closeButton" destination="gNW-2q-KOd" id="Zyb-De-eFy"/>
-                        <outlet property="webView" destination="hq1-EA-dPM" id="1sQ-x6-CeA"/>
+                        <outlet property="webView" destination="7vh-D4-b5p" id="KSo-qr-n3n"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

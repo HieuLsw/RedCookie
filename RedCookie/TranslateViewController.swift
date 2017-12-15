@@ -10,7 +10,7 @@ import Cocoa
 import WebKit
 
 class TranslateViewController: NSViewController {
-    @IBOutlet var webView:WKWebView!
+    @IBOutlet var webView:WebView!
     @IBOutlet var settingButton:NSButton!
     @IBOutlet var closeButton:NSButton!
     
@@ -19,7 +19,7 @@ class TranslateViewController: NSViewController {
     
         let myURL = URL(string: "https://papago.naver.com/")
         let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
+        webView.mainFrame.load(myRequest)
     }
     
     @IBAction func closeApp(sender: AnyObject?) {
