@@ -40,7 +40,3 @@ Now you can build and run it.
 
 ## Contributers
 * 데스나루 - He helped me to write better expressions in README file.
-
-## Help me.
-I'm not very good at English.<br>
-Please help me change all the above description more clearly.
