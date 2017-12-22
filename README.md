@@ -6,7 +6,7 @@ RedCookie is mac os application which provides fastest and easiest translation.
 ## When can I download this application on my mac?
 To distribute the mac os project as package. I need an apple developer membership.<br>
 I applied it at Dec 11, once the apple developer account is created.<br>
-When the account is created, I will do my best to let you download the app from the Mac Appstore as soon as possible.
+When the account is created, I will do my best to let you download the app from the Mac AppStore as soon as possible.
 
 ## How to use
 Once you install and run this app. Then type `Command + .` on keyboard.<br>
