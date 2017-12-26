@@ -56,7 +56,7 @@
                                 <rect key="frame" x="14" y="467" width="70" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="RedCookie" id="A6i-Ti-gSi">
                                     <font key="font" metaFont="system"/>
-                                    <color key="textColor" red="0.33658516839378239" green="0.33658516839378239" blue="0.33658516839378239" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
@@ -64,12 +64,12 @@
                                 <rect key="frame" x="90" y="467" width="86" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Command + ." id="ds0-zp-UEt">
                                     <font key="font" metaFont="system"/>
-                                    <color key="textColor" red="0.54810961787564771" green="0.54810961787564771" blue="0.54810961787564771" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="textColor" name="controlShadowColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" red="0.48942552298461839" green="0.48942552298461839" blue="0.48942552298461839" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </textFieldCell>
                             </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="gNW-2q-KOd">
-                                <rect key="frame" x="360" y="464" width="20" height="20"/>
+                                <rect key="frame" x="362" y="464" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="0fK-cN-MAS"/>
                                     <constraint firstAttribute="width" constant="20" id="Xr5-N4-EJe"/>
@@ -99,7 +99,7 @@
                             <constraint firstAttribute="bottom" secondItem="7vh-D4-b5p" secondAttribute="bottom" id="h2r-to-MKt"/>
                             <constraint firstAttribute="trailing" secondItem="7vh-D4-b5p" secondAttribute="trailing" id="hg3-9y-mdg"/>
                             <constraint firstItem="ypL-yj-y1z" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="16" id="sDA-QW-Eg3"/>
-                            <constraint firstAttribute="trailing" secondItem="gNW-2q-KOd" secondAttribute="trailing" constant="20" id="vHu-04-RNX"/>
+                            <constraint firstAttribute="trailing" secondItem="gNW-2q-KOd" secondAttribute="trailing" constant="18" id="vHu-04-RNX"/>
                         </constraints>
                     </view>
                     <connections>
