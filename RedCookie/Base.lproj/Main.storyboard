@@ -109,10 +109,94 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="165" y="1179"/>
+            <point key="canvasLocation" x="204" y="1173"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="zcz-IF-KIy">
+            <objects>
+                <windowController storyboardIdentifier="aboutWindowController" id="50b-2j-txt" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="LR2-Rg-UhN">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+                        <connections>
+                            <outlet property="delegate" destination="50b-2j-txt" id="wyY-23-fwA"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="UVM-Vb-yow" kind="relationship" relationship="window.shadowedContentViewController" id="jCP-2m-1dR"/>
+                    </connections>
+                </windowController>
+                <customObject id="ZBU-c4-ysf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="1083"/>
+        </scene>
+        <!--About Controller-->
+        <scene sceneID="DCD-pf-Ffz">
+            <objects>
+                <viewController id="UVM-Vb-yow" customClass="AboutController" customModule="RedCookie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="JGj-ed-JzN">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="246"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KeH-m5-9mA">
+                                <rect key="frame" x="64" y="100" width="123" height="21"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="RedCookie v1.1" id="xM0-1U-Av4">
+                                    <font key="font" metaFont="system" size="17"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gcy-yc-igh">
+                                <rect key="frame" x="44" y="29" width="162" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="9Qz-zJ-riy"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="View on github" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="kLw-SH-7T0">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="viewOnGitHubWithSender:" target="UVM-Vb-yow" id="8hh-Fd-eoT"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QKE-1T-bNl">
+                                <rect key="frame" x="53" y="80" width="145" height="16"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Developed by David Lee" id="HU7-C2-7rO">
+                                    <font key="font" metaFont="system" size="12"/>
+                                    <color key="textColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aL5-gf-63D">
+                                <rect key="frame" x="83" y="138" width="84" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="1P1-AU-mTU"/>
+                                    <constraint firstAttribute="width" constant="84" id="MaN-Nw-XNa"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="logo" id="m9n-pf-YcM"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="QKE-1T-bNl" firstAttribute="centerX" secondItem="JGj-ed-JzN" secondAttribute="centerX" id="7hd-dX-yG6"/>
+                            <constraint firstItem="KeH-m5-9mA" firstAttribute="centerX" secondItem="JGj-ed-JzN" secondAttribute="centerX" id="EyF-FG-Ooz"/>
+                            <constraint firstItem="aL5-gf-63D" firstAttribute="centerX" secondItem="JGj-ed-JzN" secondAttribute="centerX" id="LOS-Lg-DFX"/>
+                            <constraint firstItem="Gcy-yc-igh" firstAttribute="centerX" secondItem="JGj-ed-JzN" secondAttribute="centerX" id="OFM-t0-9a1"/>
+                            <constraint firstItem="QKE-1T-bNl" firstAttribute="top" secondItem="KeH-m5-9mA" secondAttribute="bottom" constant="4" id="Sm7-EA-bY3"/>
+                            <constraint firstItem="aL5-gf-63D" firstAttribute="top" secondItem="JGj-ed-JzN" secondAttribute="top" constant="24" id="eA8-M6-law"/>
+                            <constraint firstItem="Gcy-yc-igh" firstAttribute="top" secondItem="QKE-1T-bNl" secondAttribute="bottom" constant="23" id="m91-uu-Fjy"/>
+                            <constraint firstItem="KeH-m5-9mA" firstAttribute="top" secondItem="aL5-gf-63D" secondAttribute="bottom" constant="17" id="q0O-g6-dSO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="0se-CL-3Tf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205" y="1071"/>
         </scene>
     </scenes>
     <resources>
+        <image name="logo" width="135" height="135"/>
         <image name="setting" width="128" height="128"/>
     </resources>
 </document>

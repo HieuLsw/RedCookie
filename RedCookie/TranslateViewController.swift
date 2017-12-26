@@ -13,19 +13,52 @@ class TranslateViewController: NSViewController {
     @IBOutlet var webView:WebView!
     @IBOutlet var settingButton:NSButton!
     
+    let popupMenu = NSMenu()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
         let myURL = URL(string: "https://papago.naver.com/")
         let myRequest = URLRequest(url: myURL!)
         webView.mainFrame.load(myRequest)
+        
+        let menuItems = [
+            NSMenuItem(title: "About RedCookie", action: #selector(TranslateViewController.showAboutWindow), keyEquivalent: ""),
+            NSMenuItem.separator(),
+            // NSMenuItem(title: "Settings", action: #selector(TranslateViewController.showSettingWindow), keyEquivalent: ""),
+            // NSMenuItem.separator(),
+            NSMenuItem(title: "Quit", action: #selector(TranslateViewController.closeApp(sender:)), keyEquivalent: "")
+        ]
+        
+        for item in menuItems {
+            self.popupMenu.addItem(item)
+        }
     }
     
     @IBAction func populateMenus(sender: AnyObject?) {
+        let sButtonOrigin = self.settingButton.frame.origin
+        let pos = CGPoint(x: sButtonOrigin.x, y: sButtonOrigin.y - 10)
+        
+        self.popupMenu.popUp(
+            positioning: self.popupMenu.item(at: 0),
+            at:pos,
+            in:self.view
+        )
+    }
+    
+    @objc func showSettingWindow() {
         
     }
     
-    func closeApp(sender: AnyObject?) {
+    @objc func showAboutWindow() {
+        let storyBoard = NSStoryboard(name: NSStoryboard.Name(rawValue: "Main"), 
+                                      bundle: nil)
+        let aboutController = storyBoard.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier(rawValue: "aboutWindowController")) as! NSWindowController
+        
+        aboutController.showWindow(self)
+    }
+    
+    @objc func closeApp(sender: AnyObject?) {
         exit(0);
     }
 }

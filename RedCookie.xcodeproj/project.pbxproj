@@ -13,6 +13,7 @@
 		B10174881FD96F6F00BA0CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10174871FD96F6F00BA0CE7 /* Assets.xcassets */; };
 		B101748B1FD96F6F00BA0CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10174891FD96F6F00BA0CE7 /* Main.storyboard */; };
 		B10174951FD98BCC00BA0CE7 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10174931FD98BCC00BA0CE7 /* TranslateViewController.swift */; };
+		B17FDD241FF27F5700B41A9A /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17FDD231FF27F5700B41A9A /* AboutController.swift */; };
 		B19E17D51FDBA5E3000F9FC2 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19E17D41FDBA5E3000F9FC2 /* MenuButton.swift */; };
 		B19E17D71FDBA8C8000F9FC2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19E17D61FDBA8C8000F9FC2 /* SettingViewController.swift */; };
 		B1D4E5ED1FE01154008748DA /* PapagoWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D4E5EC1FE01154008748DA /* PapagoWebView.swift */; };
@@ -29,6 +30,7 @@
 		B101748C1FD96F6F00BA0CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B101748D1FD96F6F00BA0CE7 /* RedCookie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedCookie.entitlements; sourceTree = "<group>"; };
 		B10174931FD98BCC00BA0CE7 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		B17FDD231FF27F5700B41A9A /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
 		B19E17D41FDBA5E3000F9FC2 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		B19E17D61FDBA8C8000F9FC2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		B1D4E5EC1FE01154008748DA /* PapagoWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoWebView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				B10174851FD96F6F00BA0CE7 /* ViewController.swift */,
 				B10174931FD98BCC00BA0CE7 /* TranslateViewController.swift */,
 				B19E17D61FDBA8C8000F9FC2 /* SettingViewController.swift */,
+				B17FDD231FF27F5700B41A9A /* AboutController.swift */,
 				B10174871FD96F6F00BA0CE7 /* Assets.xcassets */,
 				B10174891FD96F6F00BA0CE7 /* Main.storyboard */,
 				B101748C1FD96F6F00BA0CE7 /* Info.plist */,
@@ -249,6 +252,7 @@
 				B10174861FD96F6F00BA0CE7 /* ViewController.swift in Sources */,
 				B10174841FD96F6F00BA0CE7 /* AppDelegate.swift in Sources */,
 				B10174951FD98BCC00BA0CE7 /* TranslateViewController.swift in Sources */,
+				B17FDD241FF27F5700B41A9A /* AboutController.swift in Sources */,
 				B1D4E5ED1FE01154008748DA /* PapagoWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
