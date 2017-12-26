@@ -11,6 +11,8 @@ Once you install and run this app. Then type `Command + .` on keyboard.<br>
 RedCookie will be shown as below<br><br>
 ![Quick Translator Screenshot](./docs/images/screenshot2.png)
 
+![Quick Translator Screenshot 2](./docs/images/screenshot3.png)
+
 ## Support Langauges
 * Chinese
 * Japanese
