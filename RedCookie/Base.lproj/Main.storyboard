@@ -69,17 +69,17 @@
                                 </textFieldCell>
                             </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="gNW-2q-KOd">
-                                <rect key="frame" x="356" y="464" width="20" height="20"/>
+                                <rect key="frame" x="360" y="464" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="0fK-cN-MAS"/>
                                     <constraint firstAttribute="width" constant="20" id="Xr5-N4-EJe"/>
                                 </constraints>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="turnoff" imagePosition="only" alignment="center" alternateImage="turnoff" imageScaling="proportionallyUpOrDown" inset="2" id="b6o-GQ-TSf">
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="setting" imagePosition="only" alignment="center" alternateImage="setting" imageScaling="proportionallyUpOrDown" inset="2" id="b6o-GQ-TSf">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="closeAppWithSender:" target="XfG-lQ-9wD" id="dUK-qb-kEt"/>
+                                    <action selector="populateMenusWithSender:" target="XfG-lQ-9wD" id="34u-Ae-kCD"/>
                                 </connections>
                             </button>
                             <webView translatesAutoresizingMaskIntoConstraints="NO" id="7vh-D4-b5p" customClass="PapagoWebView" customModule="RedCookie" customModuleProvider="target">
@@ -99,11 +99,11 @@
                             <constraint firstAttribute="bottom" secondItem="7vh-D4-b5p" secondAttribute="bottom" id="h2r-to-MKt"/>
                             <constraint firstAttribute="trailing" secondItem="7vh-D4-b5p" secondAttribute="trailing" id="hg3-9y-mdg"/>
                             <constraint firstItem="ypL-yj-y1z" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="16" id="sDA-QW-Eg3"/>
-                            <constraint firstAttribute="trailing" secondItem="gNW-2q-KOd" secondAttribute="trailing" constant="24" id="vHu-04-RNX"/>
+                            <constraint firstAttribute="trailing" secondItem="gNW-2q-KOd" secondAttribute="trailing" constant="20" id="vHu-04-RNX"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="closeButton" destination="gNW-2q-KOd" id="Zyb-De-eFy"/>
+                        <outlet property="settingButton" destination="gNW-2q-KOd" id="IxA-XG-dUI"/>
                         <outlet property="webView" destination="7vh-D4-b5p" id="KSo-qr-n3n"/>
                     </connections>
                 </viewController>
@@ -113,6 +113,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="turnoff" width="122" height="128"/>
+        <image name="setting" width="128" height="128"/>
     </resources>
 </document>

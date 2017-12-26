@@ -12,7 +12,6 @@ import WebKit
 class TranslateViewController: NSViewController {
     @IBOutlet var webView:WebView!
     @IBOutlet var settingButton:NSButton!
-    @IBOutlet var closeButton:NSButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +21,11 @@ class TranslateViewController: NSViewController {
         webView.mainFrame.load(myRequest)
     }
     
-    @IBAction func closeApp(sender: AnyObject?) {
+    @IBAction func populateMenus(sender: AnyObject?) {
+        
+    }
+    
+    func closeApp(sender: AnyObject?) {
         exit(0);
     }
 }
