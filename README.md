@@ -1,7 +1,7 @@
 ![Logo](./docs/images/logo.png)
 
 ## What is RedCookie
-RedCookie is mac os application which provides fastest and easiest translation.
+RedCookie is an app that lives in your Mac's menu bar and is a convenient and faster way to get things translated.
 
 ## When can I download this application on my mac?
 To distribute the mac os project as package. I need an apple developer membership.<br>
