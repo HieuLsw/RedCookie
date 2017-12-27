@@ -8,7 +8,7 @@ You can download this app on our website [RedCookie's official website.](https:/
 
 ## How to use
 RedCookie will be shown as below. when you type `Command + . (dot)` on keyboard<br><br>
-![Quick Translator Screenshot 2](./docs/images/screenshot3.png)
+![Quick Translator Screenshot 2](./docs/images/screenshot.png)
 
 ## Support Langauges
 * Chinese
