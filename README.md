@@ -7,8 +7,7 @@ RedCookie is an app that lives in your Mac's menu bar and is a convenient and fa
 You can download this app on our website [RedCookie's official website.](https://scalalang2.github.io/RedCookie/)
 
 ## How to use
-Once you install and run this app. Then type `Command + .` on keyboard.<br>
-RedCookie will be shown as below<br><br>
+RedCookie will be shown as below. when you type `Command + . (dot)` on keyboard<br><br>
 ![Quick Translator Screenshot 2](./docs/images/screenshot3.png)
 
 ## Support Langauges
